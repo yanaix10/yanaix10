@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center" style="font-family: 'Google Sans', 'Product Sans', sans-serif;">
-  MERN Stack Developer | System Enthusiast
+  MERN Stack Developer | DevOps & Cloud Engineer | Microservices Architecture
 </h3>
 
 <p align="center">
