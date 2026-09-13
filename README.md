@@ -36,13 +36,30 @@ naitik@zorin-os:~$ cat about.txt
 
 ### TECH_STACK
 
-| Module | Technologies |
-| :--- | :--- |
-| **[LANG]** | ![JS](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=3776AB) ![C++](https://img.shields.io/badge/C++-000?style=for-the-badge&logo=cplusplus&logoColor=00599C) ![Go](https://img.shields.io/badge/Go-000?style=for-the-badge&logo=go&logoColor=00ADD8) ![SQL](https://img.shields.io/badge/SQL-000?style=for-the-badge&logo=postgresql&logoColor=4479A1) |
-| **[FRONT]** | ![React](https://img.shields.io/badge/React-000?style=for-the-badge&logo=react&logoColor=61DAFB) ![Tailwind](https://img.shields.io/badge/Tailwind-000?style=for-the-badge&logo=tailwind-css&logoColor=06B6D4) ![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5&logoColor=E34F26) |
-| **[BACK]** | ![Node.js](https://img.shields.io/badge/Node.js-000?style=for-the-badge&logo=node.js&logoColor=339933) ![Express](https://img.shields.io/badge/Express-000?style=for-the-badge&logo=express&logoColor=FFF) ![FastAPI](https://img.shields.io/badge/FastAPI-000?style=for-the-badge&logo=fastapi&logoColor=009688) ![Rails](https://img.shields.io/badge/Ruby_on_Rails-000?style=for-the-badge&logo=rubyonrails&logoColor=CC0000) |
-| **[DATA]** | ![MongoDB](https://img.shields.io/badge/MongoDB-000?style=for-the-badge&logo=mongodb&logoColor=47A248) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql&logoColor=4169E1) ![Firebase](https://img.shields.io/badge/Firebase-000?style=for-the-badge&logo=firebase&logoColor=FFCA28) |
-| **[CORE]** | ![Linux](https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux&logoColor=FCC624) ![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=F05032) ![Docker](https://img.shields.io/badge/Docker-000?style=for-the-badge&logo=docker&logoColor=2496ED) ![Postman](https://img.shields.io/badge/Postman-000?style=for-the-badge&logo=postman&logoColor=FF6C37) ![Regex](https://img.shields.io/badge/Regex-000?style=for-the-badge&logo=regex&logoColor=FFF) |
+<table>
+  <tbody>
+    <tr>
+      <td><b>Languages:</b></td>
+      <td><img src="https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JS"> <img src="https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"> <img src="https://img.shields.io/badge/C++-000?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++"> <img src="https://img.shields.io/badge/Go-000?style=for-the-badge&logo=go&logoColor=00ADD8" alt="Go"> <img src="https://img.shields.io/badge/SQL-000?style=for-the-badge&logo=postgresql&logoColor=4479A1" alt="SQL"></td>
+    </tr>
+    <tr>
+      <td><b>Frontend:</b></td>
+      <td><img src="https://img.shields.io/badge/React-000?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/Tailwind-000?style=for-the-badge&logo=tailwind-css&logoColor=06B6D4" alt="Tailwind"> <img src="https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5"></td>
+    </tr>
+    <tr>
+      <td><b>Backend:</b></td>
+      <td><img src="https://img.shields.io/badge/Node.js-000?style=for-the-badge&logo=node.js&logoColor=339933" alt="Node.js"> <img src="https://img.shields.io/badge/Express-000?style=for-the-badge&logo=express&logoColor=FFF" alt="Express"> <img src="https://img.shields.io/badge/FastAPI-000?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI"> <img src="https://img.shields.io/badge/Ruby_on_Rails-000?style=for-the-badge&logo=rubyonrails&logoColor=CC0000" alt="Rails"></td>
+    </tr>
+    <tr>
+      <td><b>Databases:</b></td>
+      <td><img src="https://img.shields.io/badge/MongoDB-000?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB"> <img src="https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"> <img src="https://img.shields.io/badge/Firebase-000?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase"></td>
+    </tr>
+    <tr>
+      <td><b>Tools & Core:</b></td>
+      <td><img src="https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux"> <img src="https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=F05032" alt="Git"> <img src="https://img.shields.io/badge/Docker-000?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker"> <img src="https://img.shields.io/badge/Postman-000?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman"> <img src="https://img.shields.io/badge/Regex-000?style=for-the-badge&logo=regex&logoColor=FFF" alt="Regex"></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -60,11 +77,11 @@ naitik@zorin-os:~$ cat about.txt
 * Implemented LRU caching and Reader-Writer Locks to ensure safe access without data races.
 * Developed AOF persistence for crash recovery and a custom Redis-like command parser.
 
-### [IMDb Clone: Movie Discovery Site](https://github.com/naitikcodes15/IMDb-Website-Clone)
-> **HTML, CSS, JavaScript, YouTube API**
-* Developed a responsive movie discovery platform with dynamic content rendering.
-* Implemented real-time search, category filtering, and interactive trailer modals.
-* Optimized frontend performance ensuring seamless cross-browser compatibility.
+### [Doodle.io: Multiplayer Drawing Game](https://doodle-io-lake.vercel.app/)
+> **React, Node.js, Express, Socket.IO, Tailwind CSS**
+* Built a real-time multiplayer drawing and guessing game with seamless HTML5 canvas synchronization using WebSockets.
+* Implemented proximity guess matching via Levenshtein distance for near-miss typo detection.
+* Engineered a custom room matchmaking system, private lobbies, and an automated DoodleBot for solo practice.
 
 ---
 
