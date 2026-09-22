@@ -1,96 +1,127 @@
-<h1 align="center" style="font-family: 'Google Sans', 'Product Sans', sans-serif; font-weight: bold;">
-  Naitik Yadav
-</h1>
+<div align="center">
+  <h1 align="center" style="font-weight: 800; font-size: 2.5rem;">
+    Hey there, I'm <span style="color: #6366f1;">Naitik Yadav</span> 👋
+  </h1>
 
-<h3 align="center" style="font-family: 'Google Sans', 'Product Sans', sans-serif;">
-  MERN Stack Developer | DevOps & Cloud Engineer | Microservices Architecture
-</h3>
+  <p align="center">
+    <b>Backend & Systems Enthusiast | Open-Source Contributor | Full-Stack Developer</b><br>
+    <i>3rd Year B.Tech Computer Science & Engineering @ SRM University AP</i>
+  </p>
 
-<p align="center">
-  <b>B.Tech Computer Science & Engineering @ SRM University AP</b><br>
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=naitikcodes15&label=SYS.VIEWS&color=ff00ff&style=for-the-badge" alt="Profile Views" />
-</p>
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=yanaix10&label=PROFILE.VIEWS&color=6366f1&style=for-the-badge" alt="Profile Views" />
+  </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/naitikyadav15/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FFCC" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/naitik15"><img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=FF00FF" alt="LeetCode" /></a>
-  <a href="mailto:naitik.yadav641@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00FFCC" alt="Email" /></a>
-  <a href="YOUR_PORTFOLIO_LINK"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=FF00FF" alt="Portfolio" /></a>
-</p>
-
----
-
-### ABOUT_ME 
-
-```zsh
-naitik@zorin-os:~$ cat about.txt 
-> MERN Stack Developer | Cybersecurity Enthusiast
-> Education: 3rd Year B.Tech CSE @ SRM University AP [CGPA: 8.40]
-> Focus: Real-time systems, multi-threaded architectures, C++
-> Achievements: Winner VibeCraft Hackathon (QUAI Network)
-> Certifications: MongoDB Associate Developer, Deloitte Cyber Security
-```
+  <p align="center">
+    <a href="https://linkedin.com/in/naitikyadav15"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=6366f1" alt="LinkedIn" /></a>
+    <a href="https://leetcode.com/u/naitik15/"><img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=f59e0b" alt="LeetCode" /></a>
+    <a href="mailto:naitik.yadav641@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=ef4444" alt="Email" /></a>
+    <a href="https://github.com/yanaix10"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" /></a>
+  </p>
+</div>
 
 ---
 
-### TECH_STACK
+### 🚀 About Me
+
+- 🎓 **Undergrad**: 3rd-year B.Tech CSE student at **SRM University AP** [CGPA: 8.40].
+- 🛠️ **Engineering Focus**: Passionate about architecting scalable backend systems, high-concurrency multi-threaded engines, and real-time web applications.
+- 🌐 **Open Source**: Contributor to **OpenSearch (Linux Foundation / AWS)**, **Quepid**, and **Chorus Search**.
+- 🐧 **Daily Driver**: Proud **Arch Linux** power user *(btw, I use Arch)*.
+- 🏆 **Hackathons**: Winner at **VibeCraft Hackathon** (built decentralized solutions on the QUAI Network).
+
+---
+
+### 💻 Tech Stack & Tooling
+
+<div align="center">
+
+#### **Languages & Systems**
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=py,go,cpp,js,ts,bash,c&theme=dark" alt="Languages" />
+</a>
+
+<br/>
+
+#### **Backend, APIs & Databases**
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,mongodb,postgres,mysql,redis,firebase&theme=dark" alt="Backend & DBs" />
+</a>
+
+<br/>
+
+#### **Frontend & UI Architecture**
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,tailwind,vite,html,css&theme=dark" alt="Frontend" />
+</a>
+
+<br/>
+
+#### **DevOps, Environments & Tooling**
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=arch,linux,docker,git,github,postman,cmake&theme=dark" alt="DevOps & Tools" />
+</a>
+
+</div>
+
+---
+
+### 🌟 Open-Source Contributions
+
+* **[OpenSearch Go SDK](https://github.com/opensearch-project/opensearch-go/pull/950)** *(Merged into Upstream)*:
+  Refactored the `opensearchutil` bulk indexing pipeline to worker-partitioned queues with deterministic `documentID` shard hashing, eliminating race conditions during high-throughput ingestion.
+* **[Chorus OpenSearch & Elasticsearch](https://github.com/o19s/chorus-opensearch-edition)**:
+  Fixed User Behavior Insights (UBI) telemetry tracking, session persistence, and modernized UI components to React 18.
+* **[Quepid](https://github.com/o19s/quepid)**:
+  Contributed to container orchestration and local Docker networking for the test-driven search relevance platform.
+
+---
+
+### ✦ Featured Projects
 
 <table>
-  <tbody>
-    <tr>
-      <td><b>Languages:</b></td>
-      <td><img src="https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JS"> <img src="https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"> <img src="https://img.shields.io/badge/C++-000?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++"> <img src="https://img.shields.io/badge/Go-000?style=for-the-badge&logo=go&logoColor=00ADD8" alt="Go"> <img src="https://img.shields.io/badge/SQL-000?style=for-the-badge&logo=postgresql&logoColor=4479A1" alt="SQL"></td>
-    </tr>
-    <tr>
-      <td><b>Frontend:</b></td>
-      <td><img src="https://img.shields.io/badge/React-000?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/Tailwind-000?style=for-the-badge&logo=tailwind-css&logoColor=06B6D4" alt="Tailwind"> <img src="https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5"></td>
-    </tr>
-    <tr>
-      <td><b>Backend:</b></td>
-      <td><img src="https://img.shields.io/badge/Node.js-000?style=for-the-badge&logo=node.js&logoColor=339933" alt="Node.js"> <img src="https://img.shields.io/badge/Express-000?style=for-the-badge&logo=express&logoColor=FFF" alt="Express"> <img src="https://img.shields.io/badge/FastAPI-000?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI"> <img src="https://img.shields.io/badge/Ruby_on_Rails-000?style=for-the-badge&logo=rubyonrails&logoColor=CC0000" alt="Rails"></td>
-    </tr>
-    <tr>
-      <td><b>Databases:</b></td>
-      <td><img src="https://img.shields.io/badge/MongoDB-000?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB"> <img src="https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"> <img src="https://img.shields.io/badge/Firebase-000?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase"></td>
-    </tr>
-    <tr>
-      <td><b>Tools & Core:</b></td>
-      <td><img src="https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux"> <img src="https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git&logoColor=F05032" alt="Git"> <img src="https://img.shields.io/badge/Docker-000?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker"> <img src="https://img.shields.io/badge/Postman-000?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman"> <img src="https://img.shields.io/badge/Regex-000?style=for-the-badge&logo=regex&logoColor=FFF" alt="Regex"></td>
-    </tr>
-  </tbody>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/yanaix10/vulnscan">VulnPulse: Distributed DAST Engine</a></h3>
+      <p><i>FastAPI, Python, Playwright, React 19, SQLAlchemy</i></p>
+      <ul>
+        <li>Standalone Dynamic Application Security Testing platform combining a headless browser crawler with concurrent heuristic fuzzers.</li>
+        <li>Features 10+ modular OWASP checks, automated PoC generation, CVSS v3.1 scoring, and a real-time SOC command center dashboard.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/yanaix10/mini-redis">Mini-Redis: Concurrent Key-Value Store</a></h3>
+      <p><i>C++, POSIX Threads, Reader-Writer Locks, CMake</i></p>
+      <ul>
+        <li>Thread-safe in-memory database built from scratch using POSIX sockets and a custom thread pool.</li>
+        <li>Implements LRU cache eviction, Append-Only File (AOF) crash recovery persistence, and a custom command parser.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚔️ <a href="https://github.com/yanaix10/Skill-Sphere-">SkillSphere: Real-Time Coding Arena</a></h3>
+      <p><i>React, Node.js, Socket.io, MongoDB, Tailwind CSS</i></p>
+      <ul>
+        <li>1v1 competitive coding challenge system with sub-100ms real-time synchronization between peers.</li>
+        <li>Integrated Monaco Editor with Piston API for live sandboxed multi-language code execution.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎨 <a href="https://doodle-io-lake.vercel.app/">Doodle.io: Collaborative Canvas Game</a></h3>
+      <p><i>React, Node.js, Socket.io, Express, Tailwind CSS</i></p>
+      <ul>
+        <li>Multiplayer real-time drawing and guessing game featuring sub-50ms canvas stroke broadcasting.</li>
+        <li>Built proximity guess matching via Levenshtein distance and automated DoodleBot practice lobbies.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 ---
+### 📊 GitHub Activity
 
-## ✦ Featured Projects
-
-### [VulnPulse: Autonomous Web Vulnerability Security Engine](https://github.com/yanaix10/vulnscan)
-> **React 19, FastAPI, Playwright, SQLAlchemy, Tailwind CSS**
-* Engineered a standalone Dynamic Application Security Testing (DAST) platform combining a Playwright-driven headless crawler with concurrent heuristic fuzzing for SPAs and APIs.
-* Built a real-time Command Center dashboard featuring SOC telemetry widgets, active perimeter sweeps, and a live threat stream.
-* Developed modular security checks (SQLi, XSS, CSRF, Path Traversal) integrated with automated compliance report generators supporting HTML, JSON, and SARIF v2.1.0 formats.
-
-### [SkillSphere: Real-Time Coding Platform](https://github.com/yanaix10/Skill-Sphere-)
-> **React, Node.js, MongoDB, Socket.io, Tailwind CSS**
-* Engineered a real-time 1v1 coding challenge system with sub-100ms synchronization latency.
-* Integrated Monaco Editor with Piston API to support live multi-language code execution.
-* Designed scalable backend architecture for 80+ challenges with a modern glassmorphic UI.
-
-### [Mini-Redis: Concurrent Key-Value Store](https://github.com/naitikcodes15/mini-redis)
-> **C++, POSIX Threads, CMake**
-* Built a thread-safe, multi-client key-value store using POSIX sockets and a custom thread pool.
-* Implemented LRU caching and Reader-Writer Locks to ensure safe access without data races.
-* Developed AOF persistence for crash recovery and a custom Redis-like command parser.
-
-### [Doodle.io: Multiplayer Drawing Game](https://doodle-io-lake.vercel.app/)
-> **React, Node.js, Express, Socket.IO, Tailwind CSS**
-* Built a real-time multiplayer drawing and guessing game with seamless HTML5 canvas synchronization using WebSockets.
-* Implemented proximity guess matching via Levenshtein distance for near-miss typo detection.
-* Engineered a custom room matchmaking system, private lobbies, and an automated DoodleBot for solo practice.
-
----
-
-<p align="center" style="font-family: 'Google Sans', 'Product Sans', sans-serif;">
-  <i>Eat. Code. Sleep. Repeat.</i>
-</p>
+<div align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=yanaix10&show_icons=true&theme=tokyonight&hide_border=true" alt="Naitik's GitHub Stats" height="165" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=yanaix10&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+</div>
