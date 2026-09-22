@@ -65,7 +65,7 @@ naitik@zorin-os:~$ cat about.txt
 
 ## ✦ Featured Projects
 
-### [VulnPulse: Autonomous Web Vulnerability Security Engine](https://github.com/naitikcodes15/VulnPulse)
+### [VulnPulse: Autonomous Web Vulnerability Security Engine](https://github.com/yanaix10/VulnPulse)
 > **React 19, FastAPI, Playwright, SQLAlchemy, Tailwind CSS**
 * Engineered a standalone Dynamic Application Security Testing (DAST) platform combining a Playwright-driven headless crawler with concurrent heuristic fuzzing for SPAs and APIs.
 * Built a real-time Command Center dashboard featuring SOC telemetry widgets, active perimeter sweeps, and a live threat stream.
