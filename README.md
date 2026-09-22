@@ -71,7 +71,7 @@ naitik@zorin-os:~$ cat about.txt
 * Built a real-time Command Center dashboard featuring SOC telemetry widgets, active perimeter sweeps, and a live threat stream.
 * Developed modular security checks (SQLi, XSS, CSRF, Path Traversal) integrated with automated compliance report generators supporting HTML, JSON, and SARIF v2.1.0 formats.
 
-### [SkillSphere: Real-Time Coding Platform](https://github.com/naitikcodes15/Skill-Sphere-)
+### [SkillSphere: Real-Time Coding Platform](https://github.com/yanaix10/Skill-Sphere-)
 > **React, Node.js, MongoDB, Socket.io, Tailwind CSS**
 * Engineered a real-time 1v1 coding challenge system with sub-100ms synchronization latency.
 * Integrated Monaco Editor with Piston API to support live multi-language code execution.
