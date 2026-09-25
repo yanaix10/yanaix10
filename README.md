@@ -87,8 +87,8 @@
 
 #### VulnPulse &mdash; Distributed DAST Engine
 <p>
-  <a href="https://github.com/yanaix10/vulnscan"><img src="https://img.shields.io/badge/Repository-0d1117?style=flat-square&logo=github&logoColor=white" alt="Repository" /></a>
-  <a href="https://vulnpulse.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-4f46e5?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
+  <a href="https://github.com/yanaix10/vulnscan" title="GitHub Repository"><img src="https://img.shields.io/badge/-%20-0d1117?style=flat-square&logo=github&logoColor=white" height="20" alt="GitHub" /></a>
+  <a href="https://vulnpulse.vercel.app/" title="Live Demo"><img src="https://img.shields.io/badge/-%20-10b981?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNCcgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyBmaWxsPSdub25lJyBzdHJva2U9J3doaXRlJyBzdHJva2Utd2lkdGg9JzInIHN0cm9rZS1saW5lY2FwPSdyb3VuZCcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+PGNpcmNsZSBjeD0nMTInIGN5PScxMicgcj0nMTAnLz48bGluZSB4MT0nMicgeTE9JzEyJyB4Mj0nMjInIHkyPScxMicvPjxwYXRoIGQ9J00xMiAyYTE1LjMgMTUuMyAwIDAgMSA0IDEwIDE1LjMgMTUuMyAwIDAgMS00IDEwIDE1LjMgMTUuMyAwIDAgMS00LTEwIDE1LjMgMTUuMyAwIDAgMSA0LTEweicvPjwvc3ZnPg==" height="20" alt="Live Demo" /></a>
 </p>
 
 *FastAPI &bull; Python &bull; Playwright &bull; React 19 &bull; SQLAlchemy*
@@ -101,8 +101,7 @@
 
 #### Mini-Redis &mdash; Concurrent Key-Value Store
 <p>
-  <a href="https://github.com/yanaix10/mini-redis"><img src="https://img.shields.io/badge/Repository-0d1117?style=flat-square&logo=github&logoColor=white" alt="Repository" /></a>
-  <img src="https://img.shields.io/badge/Type-Systems_Daemon-64748b?style=flat-square" alt="Systems Daemon" />
+  <a href="https://github.com/yanaix10/mini-redis" title="GitHub Repository"><img src="https://img.shields.io/badge/-%20-0d1117?style=flat-square&logo=github&logoColor=white" height="20" alt="GitHub" /></a>
 </p>
 
 *C++ &bull; POSIX Threads &bull; Reader-Writer Locks &bull; Sockets &bull; CMake*
@@ -115,8 +114,9 @@
 
 #### SkillSphere &mdash; Real-Time Coding Arena
 <p>
-  <a href="https://github.com/yanaix10/Skill-Sphere-"><img src="https://img.shields.io/badge/Repository-0d1117?style=flat-square&logo=github&logoColor=white" alt="Repository" /></a>
-  <a href="https://xskillsphere.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-4f46e5?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
+  <a href="https://github.com/yanaix10/Skill-Sphere-" title="GitHub Repository"><img src="https://img.shields.io/badge/-%20-0d1117?style=flat-square&logo=github&logoColor=white" height="20" alt="GitHub" /></a>
+  <a href="https://xskillsphere.vercel.app/" title="Live Demo (In Progress)"><img src="https://img.shields.io/badge/-%20-dc2626?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNCcgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyBmaWxsPSdub25lJyBzdHJva2U9J3doaXRlJyBzdHJva2Utd2lkdGg9JzInIHN0cm9rZS1saW5lY2FwPSdyb3VuZCcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+PGNpcmNsZSBjeD0nMTInIGN5PScxMicgcj0nMTAnLz48bGluZSB4MT0nMicgeTE9JzEyJyB4Mj0nMjInIHkyPScxMicvPjxwYXRoIGQ9J00xMiAyYTE1LjMgMTUuMyAwIDAgMSA0IDEwIDE1LjMgMTUuMyAwIDAgMS00IDEwIDE1LjMgMTUuMyAwIDAgMS00LTEwIDE1LjMgMTUuMyAwIDAgMSA0LTEweicvPjwvc3ZnPg==" height="20" alt="Live Demo" /></a>
+  <a href="https://xskillsphere.vercel.app/"><img src="https://img.shields.io/badge/In_Progress-dc2626?style=flat-square" height="20" alt="In Progress" /></a>
 </p>
 
 *React &bull; Node.js &bull; Socket.io &bull; Express &bull; MongoDB &bull; Tailwind CSS*
@@ -129,8 +129,8 @@
 
 #### Doodle.io &mdash; Collaborative Canvas Multiplayer Game
 <p>
-  <a href="https://github.com/yanaix10/Doodle.io"><img src="https://img.shields.io/badge/Repository-0d1117?style=flat-square&logo=github&logoColor=white" alt="Repository" /></a>
-  <a href="https://doodle-io-lake.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-4f46e5?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
+  <a href="https://github.com/yanaix10/Doodle.io" title="GitHub Repository"><img src="https://img.shields.io/badge/-%20-0d1117?style=flat-square&logo=github&logoColor=white" height="20" alt="GitHub" /></a>
+  <a href="https://doodle-io-lake.vercel.app/" title="Live Demo"><img src="https://img.shields.io/badge/-%20-10b981?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNCcgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyBmaWxsPSdub25lJyBzdHJva2U9J3doaXRlJyBzdHJva2Utd2lkdGg9JzInIHN0cm9rZS1saW5lY2FwPSdyb3VuZCcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+PGNpcmNsZSBjeD0nMTInIGN5PScxMicgcj0nMTAnLz48bGluZSB4MT0nMicgeTE9JzEyJyB4Mj0nMjInIHkyPScxMicvPjxwYXRoIGQ9J00xMiAyYTE1LjMgMTUuMyAwIDAgMSA0IDEwIDE1LjMgMTUuMyAwIDAgMS00IDEwIDE1LjMgMTUuMyAwIDAgMS00LTEwIDE1LjMgMTUuMyAwIDAgMSA0LTEweicvPjwvc3ZnPg==" height="20" alt="Live Demo" /></a>
 </p>
 
 *React &bull; Node.js &bull; Socket.io &bull; Express &bull; HTML5 Canvas &bull; Tailwind CSS*
