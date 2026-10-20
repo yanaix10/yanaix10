@@ -144,6 +144,11 @@
 ### GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=yanaix10&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165" />
+  <p align="center">
+    <a href="https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Ayanaix10">
+      <img src="https://img.shields.io/github/issues-search?query=is%3Apr+is%3Amerged+author%3Ayanaix10&label=Total%20PRs%20Merged&style=flat-square&color=8957e5&logo=github&logoColor=white" alt="Total PRs Merged" />
+    </a>
+  </p>
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=yanaix10&show=prs_merged&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165" />
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=yanaix10&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
 </div>
