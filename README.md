@@ -129,7 +129,6 @@
 #### SkillSphere &mdash; Real-Time Coding Arena
 <p>
   <a href="https://github.com/yanaix10/Skill-Sphere-" title="GitHub Repository"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" height="20" alt="GitHub" /></a>
-  <a href="https://xskillsphere.vercel.app/" title="Live Demo"><img src="https://img.shields.io/badge/Live_Demo-10b981?style=flat-square&logo=vercel&logoColor=white" height="20" alt="Live Demo" /></a>
 </p>
 
 *React &bull; Node.js &bull; Socket.io &bull; Monaco Editor &bull; MongoDB &bull; Tailwind CSS*
