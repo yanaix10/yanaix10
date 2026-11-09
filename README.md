@@ -28,7 +28,7 @@
 
 - **Undergraduate**: 3rd-year B.Tech in Computer Science & Engineering at **SRM University AP** *(CGPA: 8.40 / 10.0)*.
 - **Engineering Focus**: Architecting scalable backend systems, high-concurrency multi-threaded runtimes, distributed caching, and low-latency network protocols.
-- **Open Source**: Upstream contributor to **OpenSearch (Linux Foundation / AWS)**, **Quepid**, and **Chorus Search**.
+- **Open Source**: Upstream contributor to **OpenSearch (Linux Foundation / AWS)**, **OneBusAway**, **Quepid**, and **Chorus Search**.
 - **Environment**: Arch Linux power user with daily focus on Linux internals, shell scripting, and systems tooling.
 - **Competitions**: Winner at **VibeCraft Hackathon** (engineered decentralized solutions on the QUAI Network).
 
@@ -70,18 +70,18 @@
 
 ### Open-Source Contributions
 
-- **[OpenSearch Go SDK](https://github.com/opensearch-project/opensearch-go/pull/950)** &bull; *Merged into Upstream*
-  - Re-architected the `opensearchutil` bulk indexing pipeline by replacing a single channel with worker-partitioned queues.
-  - Implemented deterministic `documentID` shard hashing (`hashValue % NumWorkers`) to eliminate write contention and race conditions during high-throughput ingestion.
-  - Engineered a lock-free round-robin fallback distribution for unkeyed records to maximize multi-core CPU utilization.
-
-- **[Chorus OpenSearch & Elasticsearch Edition](https://github.com/o19s/chorus-opensearch-edition)**
-  - Resolved cross-session search state desynchronization via an event-driven storage bus, upgraded container runtimes to Node 20, and established automated Playwright E2E verification pipelines.
-  - Decoupled product browsing telemetry from checkout conversion events (UBI) across 5+ search relevance models.
-
-- **[Quepid](https://github.com/o19s/quepid)**
-  - Contributed to container orchestration and isolated Docker networking for the test-driven search relevance evaluation suite.
-  - Resolved containerized Nginx port fallbacks and MySQL startup race conditions.
+| # | Project | Contribution & Impact | PRs' Merged |
+| :-: | :--- | :--- | :-: |
+| **01** | **[OpenSearch Go SDK](https://github.com/opensearch-project/opensearch-go)** | Re-architected bulk indexing with worker-partitioned queues and deterministic `documentID` shard hashing.<br/>Eliminated goroutine write contention with lock-free atomic round-robin fallback for unkeyed records. | [`#950`](https://github.com/opensearch-project/opensearch-go/pull/950) |
+| **02** | **[OneBusAway Watchdog](https://github.com/OneBusAway/watchdog)** | Fixed dropped server recovery attribution by preserving original failing server metadata tags during reconciliation.<br/>Purged dead `duplicateEligible` logic and resolved false-positive Sentry recovery reporting for shared identities. | [`#183`](https://github.com/OneBusAway/watchdog/pull/183) |
+| **03** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Implemented standalone Product Detail Page (`/product/:asin`) routing with direct OpenSearch middleware queries.<br/>Decoupled `CLICK_THROUGH` and conversion telemetry from cart actions, eliminating fabricated tracking events. | [`#192`](https://github.com/o19s/chorus-opensearch-edition/pull/192) |
+| **04** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Resolved cross-session cart desynchronization by replacing DOM mutation with an event-driven `cart_updated` bus.<br/>Upgraded Docker environment to Node 20 and established end-to-end automated Playwright CI verification suites. | [`#190`](https://github.com/o19s/chorus-opensearch-edition/pull/190) |
+| **05** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Enforced storage persistence for `client_id` and `session_id` to preserve user sessions across page reloads.<br/>Corrected schema field mappings for search queries and brand facet filters (`Brand.keyword` to `brand.keyword`). | [`#188`](https://github.com/o19s/chorus-opensearch-edition/pull/188) |
+| **06** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Fixed product card `undefined $` pricing and missing brand labels using defensive property guards.<br/>Corrected UBI analytics payload identifiers by mapping undefined `item.id` to valid `item.asin` tokens. | [`#186`](https://github.com/o19s/chorus-opensearch-edition/pull/186) |
+| **07** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Migrated React root mounting lifecycle to React 18 `createRoot` API to resolve console deprecation errors.<br/>Fixed uncontrolled input state warnings in `AlgoPicker` by initializing comparison configs to empty strings. | [`#184`](https://github.com/o19s/chorus-opensearch-edition/pull/184) |
+| **08** | **[Quepid](https://github.com/o19s/quepid)** | Hardened Docker orchestration with service healthchecks to resolve Rails worker and MySQL startup race conditions.<br/>Added configurable host port overrides (`APP_PORT`) and type-coerced `SOLID_QUEUE_POLLING` float parsing. | [`#1726`](https://github.com/o19s/quepid/pull/1726) |
+| **09** | **[Meshery](https://github.com/meshery/meshery)** | Contributed community attendance verification and developer introduction to the CNCF Meshery repository.<br/>Adhered to CNCF Developer Certificate of Origin (DCO) commit sign-off and contribution standards. | [`#20145`](https://github.com/meshery/meshery/pull/20145) |
+| **10** | **[OpenSearch Specs](https://github.com/opensearch-project/opensearch-api-specification)** | Prevented runtime deserialization crashes across multi-language SDKs by relaxing required token frequency constraints.<br/>Preserved backward compatibility across client code generators for OpenSearch analyzer token objects. | [`#1229`](https://github.com/opensearch-project/opensearch-api-specification/pull/1229) |
 
 ---
 
