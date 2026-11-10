@@ -27,7 +27,7 @@
 ### About
 
 - **Undergraduate**: 3rd-year B.Tech in Computer Science & Engineering at **SRM University AP** *(CGPA: 8.40 / 10.0)*.
-- **Engineering Focus**: Architecting scalable backend systems, high-concurrency multi-threaded runtimes, distributed caching, and low-latency network protocols.
+- **Engineering Focus**: Scalable distributed backends, high-concurrency multi-threaded runtimes, in-memory caching, and low-latency networking.
 - **Open Source**: Upstream contributor to **OpenSearch (Linux Foundation / AWS)**, **OneBusAway**, **Quepid**, and **Chorus Search**.
 - **Environment**: Arch Linux power user with daily focus on Linux internals, shell scripting, and systems tooling.
 - **Competitions**: Winner at **VibeCraft Hackathon** (engineered decentralized solutions on the QUAI Network).
@@ -70,72 +70,60 @@
 
 ### Open-Source Contributions
 
-| # | Project | Contribution & Impact | PRs' Merged |
+| # | Project | Contribution & Impact | PRs Merged |
 | :-: | :--- | :--- | :-: |
 | **01** | **[OpenSearch Go SDK](https://github.com/opensearch-project/opensearch-go)** | Re-architected bulk indexing with worker-partitioned queues and deterministic `documentID` shard hashing.<br/>Eliminated goroutine write contention with lock-free atomic round-robin fallback for unkeyed records. | [`#950`](https://github.com/opensearch-project/opensearch-go/pull/950) |
-| **02** | **[OneBusAway Watchdog](https://github.com/OneBusAway/watchdog)** | Fixed dropped server recovery attribution by preserving original failing server metadata tags during reconciliation.<br/>Purged dead `duplicateEligible` logic and resolved false-positive Sentry recovery reporting for shared identities. | [`#183`](https://github.com/OneBusAway/watchdog/pull/183) |
-| **03** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Implemented standalone Product Detail Page (`/product/:asin`) routing with direct OpenSearch middleware queries.<br/>Decoupled `CLICK_THROUGH` and conversion telemetry from cart actions, eliminating fabricated tracking events. | [`#192`](https://github.com/o19s/chorus-opensearch-edition/pull/192) |
-| **04** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Resolved cross-session cart desynchronization by replacing DOM mutation with an event-driven `cart_updated` bus.<br/>Upgraded Docker environment to Node 20 and established end-to-end automated Playwright CI verification suites. | [`#190`](https://github.com/o19s/chorus-opensearch-edition/pull/190) |
-| **05** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Enforced storage persistence for `client_id` and `session_id` to preserve user sessions across page reloads.<br/>Corrected schema field mappings for search queries and brand facet filters (`Brand.keyword` to `brand.keyword`). | [`#188`](https://github.com/o19s/chorus-opensearch-edition/pull/188) |
-| **06** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Fixed product card `undefined $` pricing and missing brand labels using defensive property guards.<br/>Corrected UBI analytics payload identifiers by mapping undefined `item.id` to valid `item.asin` tokens. | [`#186`](https://github.com/o19s/chorus-opensearch-edition/pull/186) |
-| **07** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Migrated React root mounting lifecycle to React 18 `createRoot` API to resolve console deprecation errors.<br/>Fixed uncontrolled input state warnings in `AlgoPicker` by initializing comparison configs to empty strings. | [`#184`](https://github.com/o19s/chorus-opensearch-edition/pull/184) |
-| **08** | **[Quepid](https://github.com/o19s/quepid)** | Hardened Docker orchestration with service healthchecks to resolve Rails worker and MySQL startup race conditions.<br/>Added configurable host port overrides (`APP_PORT`) and type-coerced `SOLID_QUEUE_POLLING` float parsing. | [`#1726`](https://github.com/o19s/quepid/pull/1726) |
-| **09** | **[Meshery](https://github.com/meshery/meshery)** | Contributed community attendance verification and developer introduction to the CNCF Meshery repository.<br/>Adhered to CNCF Developer Certificate of Origin (DCO) commit sign-off and contribution standards. | [`#20145`](https://github.com/meshery/meshery/pull/20145) |
-| **10** | **[OpenSearch Specs](https://github.com/opensearch-project/opensearch-api-specification)** | Prevented runtime deserialization crashes across multi-language SDKs by relaxing required token frequency constraints.<br/>Preserved backward compatibility across client code generators for OpenSearch analyzer token objects. | [`#1229`](https://github.com/opensearch-project/opensearch-api-specification/pull/1229) |
+| **02** | **[OpenSearch Dashboards](https://github.com/opensearch-project/dashboards-search-relevance)** | Hardened image preview rendering in Search Relevance Workbench against non-string field values.<br/>Prevented uncaught type error crashes and stabilized visual comparisons across search result schemas. | [`#973`](https://github.com/opensearch-project/dashboards-search-relevance/pull/973) |
+| **03** | **[OneBusAway Watchdog](https://github.com/OneBusAway/watchdog)** | Fixed dropped server recovery attribution by preserving original failing server metadata tags during reconciliation.<br/>Purged dead `duplicateEligible` logic and resolved false-positive Sentry recovery reporting for shared identities. | [`#183`](https://github.com/OneBusAway/watchdog/pull/183) |
+| **04** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Implemented standalone Product Detail Page (`/product/:asin`) routing with direct OpenSearch middleware queries.<br/>Decoupled `CLICK_THROUGH` and conversion telemetry from cart actions, eliminating fabricated tracking events. | [`#192`](https://github.com/o19s/chorus-opensearch-edition/pull/192) |
+| **05** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Resolved cross-session cart desynchronization by replacing DOM mutation with an event-driven `cart_updated` bus.<br/>Upgraded Docker environment to Node 20 and established end-to-end automated Playwright CI verification suites. | [`#190`](https://github.com/o19s/chorus-opensearch-edition/pull/190) |
+| **06** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Enforced storage persistence for `client_id` and `session_id` to preserve user sessions across page reloads.<br/>Corrected schema field mappings for search queries and brand facet filters (`Brand.keyword` to `brand.keyword`). | [`#188`](https://github.com/o19s/chorus-opensearch-edition/pull/188) |
+| **07** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Fixed product card `undefined $` pricing and missing brand labels using defensive property guards.<br/>Corrected UBI analytics payload identifiers by mapping undefined `item.id` to valid `item.asin` tokens. | [`#186`](https://github.com/o19s/chorus-opensearch-edition/pull/186) |
+| **08** | **[Chorus OpenSearch](https://github.com/o19s/chorus-opensearch-edition)** | Migrated React root mounting lifecycle to React 18 `createRoot` API to resolve console deprecation errors.<br/>Fixed uncontrolled input state warnings in `AlgoPicker` by initializing comparison configs to empty strings. | [`#184`](https://github.com/o19s/chorus-opensearch-edition/pull/184) |
+| **09** | **[Quepid](https://github.com/o19s/quepid)** | Hardened Docker orchestration with service healthchecks to resolve Rails worker and MySQL startup race conditions.<br/>Added configurable host port overrides (`APP_PORT`) and type-coerced `SOLID_QUEUE_POLLING` float parsing. | [`#1726`](https://github.com/o19s/quepid/pull/1726) |
+| **10** | **[Meshery](https://github.com/meshery/meshery)** | Contributed community attendance verification and developer introduction to the CNCF Meshery repository.<br/>Adhered to CNCF Developer Certificate of Origin (DCO) commit sign-off and contribution standards. | [`#20145`](https://github.com/meshery/meshery/pull/20145) |
 
 ---
 
 ### Featured Projects
 
-#### Doodle.io &mdash; Collaborative Canvas Multiplayer Game
-<p>
-  <a href="https://github.com/yanaix10/Doodle.io" title="GitHub Repository"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" height="20" alt="GitHub" /></a>
-  <a href="https://doodle-io-lake.vercel.app/" title="Live Demo"><img src="https://img.shields.io/badge/Live_Demo-10b981?style=flat-square&logo=vercel&logoColor=white" height="20" alt="Live Demo" /></a>
-</p>
+#### Doodle.io &mdash; Collaborative Canvas Multiplayer Game &nbsp; [![Live Demo](https://img.shields.io/badge/Live_Demo-10b981?style=flat-square&logo=vercel&logoColor=white)](https://doodle-io-lake.vercel.app/) [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/yanaix10/Doodle.io)
 
 *React &bull; Node.js &bull; Socket.io &bull; Express &bull; HTML5 Canvas &bull; Tailwind CSS*
 
-- **Low-Latency Vector Streaming**: Broadcasts high-frequency canvas drawing vectors over WebSockets with sub-50ms latency across 10+ concurrent multiplayer sessions.
-- **Intelligent Guess Matching**: Constructed proximity guess validation using Levenshtein distance algorithms (80% similarity threshold) for typo-tolerant guess evaluation.
-- **Multiplayer State Management**: Managed in-memory game room lobbies, round countdown timers, and live leaderboard calculations.
+- **Sub-50ms Vector Streaming**: Broadcasts high-frequency canvas stroke coordinates over WebSockets with sub-50ms latency across 10+ concurrent multiplayer sessions.
+- **Typo-Tolerant Guess Engine**: Constructed fuzzy guess validation using Levenshtein distance algorithms (80% similarity threshold) for progressive clue reveals.
+- **Multiplayer Room State**: Managed in-memory game room lobbies, turn-based round timers, and live leaderboard calculations.
 
 <br/>
 
-#### hey &mdash; End-to-End Encrypted Terminal Chat & Daemon
-<p>
-  <a href="https://github.com/yanaix10/hey" title="GitHub Repository"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" height="20" alt="GitHub" /></a>
-</p>
+#### hey &mdash; End-to-End Encrypted Terminal Chat & Daemon &nbsp; [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/yanaix10/hey)
 
 *Go &bull; Bubble Tea &bull; TLS 1.3 &bull; AES-256-GCM &bull; Linux*
 
-- **Decoupled Client-Daemon Architecture**: Developed an autonomous Go background daemon decoupled from an interactive Bubble Tea TUI client, integrated with a TLS 1.3 cloud relay for low-latency peer messaging across NAT boundaries.
-- **Zero-Knowledge Cryptography**: Enforced end-to-end security using AES-256-GCM encryption with 96-bit nonces and ephemeral 6-digit OTP pairing, alongside local mDNS LAN discovery and a 16 kHz PCM voice pipeline.
+- **Client-Daemon Decoupling**: Built an autonomous Go background daemon (`heyd`) decoupled from an interactive Bubble Tea TUI client with desktop notification hooks.
+- **Zero-Knowledge Cryptography**: Enforced end-to-end security via AES-256-GCM encryption with unique 96-bit nonces, SHA-256 key derivation, and ephemeral OTP pairing.
+- **Cross-NAT Relay & Voice**: Engineered TLS 1.3 cloud relay routing with local mDNS LAN discovery and a 16 kHz mono PCM voice streaming pipeline.
 
 <br/>
 
-#### Mini-Redis &mdash; Concurrent Key-Value Store
-<p>
-  <a href="https://github.com/yanaix10/mini-redis" title="GitHub Repository"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" height="20" alt="GitHub" /></a>
-</p>
+#### Mini-Redis &mdash; Concurrent Key-Value Store &nbsp; [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/yanaix10/mini-redis)
 
 *C++ &bull; POSIX Sockets &bull; pthreads &bull; Reader-Writer Locks &bull; CMake*
 
-- **High-Concurrency Core**: Built a non-blocking TCP key-value server from scratch in C++ using POSIX sockets and a pre-allocated thread pool to eliminate thread-creation overhead under high volume.
-- **Granular Locking & $O(1)$ Eviction**: Integrated reader-writer locks (`pthread_rwlock`) to maximize concurrent read throughput paired with an $\mathcal{O}(1)$ LRU memory cache.
-- **Deterministic Durability**: Implemented an Append-Only File (AOF) persistence logging engine with state replay crash recovery and a custom RESP command parser.
+- **High-Concurrency Core**: Built a non-blocking TCP key-value server from scratch in C++ using POSIX sockets and a pre-allocated worker thread pool.
+- **Granular Locking & `O(1)` LRU**: Integrated reader-writer locks (`pthread_rwlock`) for concurrent read throughput paired with an `O(1)` LRU eviction memory cache.
+- **Durability & Protocol Engine**: Implemented an Append-Only File (AOF) persistence logging engine with crash recovery state replay and a custom RESP command parser.
 
 <br/>
 
-#### SkillSphere &mdash; Real-Time Coding Arena
-<p>
-  <a href="https://github.com/yanaix10/Skill-Sphere-" title="GitHub Repository"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" height="20" alt="GitHub" /></a>
-</p>
+#### SkillSphere &mdash; Real-Time Coding Arena &nbsp; [![Live Demo](https://img.shields.io/badge/Live_Demo-10b981?style=flat-square&logo=vercel&logoColor=white)](https://xskillsphere.vercel.app/) [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/yanaix10/Skill-Sphere-)
 
 *React &bull; Node.js &bull; Socket.io &bull; Monaco Editor &bull; MongoDB &bull; Tailwind CSS*
 
-- **Event-Driven WebSocket Gateway**: Architected low-latency 1v1 matchmaking and editor state synchronization over Socket.io, featuring automated heartbeat pinging and a 30-second disconnect recovery grace period.
-- **Sandboxed Execution & Verdict Streaming**: Integrated Monaco Editor with a server-authoritative pluggable execution pipeline, running isolated multi-language test suites to stream real-time verdicts with sub-100ms latency.
-- **Matchmaking & Stats Engine**: Engineered room-based matchmaking lobbies with Elo rating calculations, synchronized match timers, and MongoDB duel tracking.
+- **Sub-100ms Keystroke Sync**: Architected low-latency 1v1 duel state and editor synchronization over Socket.io with automated heartbeat disconnect recovery.
+- **Sandboxed Code Execution**: Integrated Monaco Editor with isolated execution sandboxes (Piston API) to run multi-language test suites and stream live verdicts.
+- **Competitive Matchmaking**: Engineered room-based matchmaking lobbies with Elo rating calculations, synchronized match timers, and MongoDB duel tracking.
 
 ---
 
