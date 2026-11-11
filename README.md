@@ -87,7 +87,7 @@
 
 ### Featured Projects
 
-#### Doodle.io &mdash; Collaborative Canvas Multiplayer Game &nbsp; [![Live Demo](https://img.shields.io/badge/Live_Demo-10b981?style=flat-square&logo=vercel&logoColor=white)](https://doodle-io-lake.vercel.app/) [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/yanaix10/Doodle.io)
+#### Doodle.io &mdash; Collaborative Canvas Multiplayer Game <a href="https://github.com/yanaix10/Doodle.io"><img align="right" src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a><a href="https://doodle-io-lake.vercel.app/"><img align="right" hspace="4" src="https://img.shields.io/badge/Live_Demo-10b981?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8%2BPGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMmExNS4zIDE1LjMgMCAwIDEgNCAxMCAxNS4zIDE1LjMgMCAwIDEtNCAxMCAxNS4zIDE1LjMgMCAwIDEtNC0xMCAxNS4zIDE1LjMgMCAwIDEgNC0xMHoiLz48L3N2Zz4%3D" alt="Live Demo" /></a>
 
 *React &bull; Node.js &bull; Socket.io &bull; Express &bull; HTML5 Canvas &bull; Tailwind CSS*
 
@@ -97,7 +97,7 @@
 
 <br/>
 
-#### hey &mdash; End-to-End Encrypted Terminal Chat & Daemon &nbsp; [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/yanaix10/hey)
+#### hey &mdash; End-to-End Encrypted Terminal Chat & Daemon <a href="https://github.com/yanaix10/hey"><img align="right" src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 
 *Go &bull; Bubble Tea &bull; TLS 1.3 &bull; AES-256-GCM &bull; Linux*
 
@@ -107,17 +107,17 @@
 
 <br/>
 
-#### Mini-Redis &mdash; Concurrent Key-Value Store &nbsp; [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/yanaix10/mini-redis)
+#### Mini-Redis &mdash; Concurrent Key-Value Store <a href="https://github.com/yanaix10/mini-redis"><img align="right" src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
 
 *C++ &bull; POSIX Sockets &bull; pthreads &bull; Reader-Writer Locks &bull; CMake*
 
 - **High-Concurrency Core**: Built a non-blocking TCP key-value server from scratch in C++ using POSIX sockets and a pre-allocated worker thread pool.
-- **Granular Locking & `O(1)` LRU**: Integrated reader-writer locks (`pthread_rwlock`) for concurrent read throughput paired with an `O(1)` LRU eviction memory cache.
+- **Granular Locking & O(1) LRU**: Integrated reader-writer locks (`pthread_rwlock`) for concurrent read throughput paired with an O(1) LRU eviction memory cache.
 - **Durability & Protocol Engine**: Implemented an Append-Only File (AOF) persistence logging engine with crash recovery state replay and a custom RESP command parser.
 
 <br/>
 
-#### SkillSphere &mdash; Real-Time Coding Arena &nbsp; [![Live Demo](https://img.shields.io/badge/Live_Demo-10b981?style=flat-square&logo=vercel&logoColor=white)](https://xskillsphere.vercel.app/) [![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/yanaix10/Skill-Sphere-)
+#### SkillSphere &mdash; Real-Time Coding Arena <a href="https://github.com/yanaix10/Skill-Sphere-"><img align="right" src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a><a href="https://xskillsphere.vercel.app/"><img align="right" hspace="4" src="https://img.shields.io/badge/Live_Demo-10b981?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8%2BPGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMmExNS4zIDE1LjMgMCAwIDEgNCAxMCAxNS4zIDE1LjMgMCAwIDEtNCAxMCAxNS4zIDE1LjMgMCAwIDEtNC0xMCAxNS4zIDE1LjMgMCAwIDEgNC0xMHoiLz48L3N2Zz4%3D" alt="Live Demo" /></a>
 
 *React &bull; Node.js &bull; Socket.io &bull; Monaco Editor &bull; MongoDB &bull; Tailwind CSS*
 
